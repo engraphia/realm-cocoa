@@ -12,6 +12,11 @@
 * Greatly improve performance of write transactions which make a large number of
   changes to indexed properties, including the automatic migration when opening
   files written by Realm 1.x.
+  code that interoperates between Realm Objective-C and Realm Swift APIs.  
+* Add the `RLMSyncPermissionOffer` class to allow to offer permissions to others for
+  synchronized Realms.
+* Add the `RLMSyncPermissionOfferResponse` class to response permissions by a received token
+  which is genereted by `RLMSyncPermissionOffer`.
 
 ### Bugfixes
 
